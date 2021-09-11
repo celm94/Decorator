@@ -6,6 +6,7 @@ public class RelojDeportivoDecorador extends DecoradorReloj{
     public RelojDeportivoDecorador(Reloj reloj) {
         super(reloj);
     }
+
     private void AñadirPodometro(){
         System.out.println("- Podómetro: contador de pasos");
     }
